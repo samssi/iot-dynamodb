@@ -1,0 +1,1 @@
+ aws dynamodb put-item --cli-input-json file://$DYNAMODB_EXAMPLES/items/example-create-temperature-item.json --endpoint-url http://localhost:8000

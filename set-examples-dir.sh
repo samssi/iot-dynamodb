@@ -1,0 +1,1 @@
+export DYNAMODB_EXAMPLES=$1

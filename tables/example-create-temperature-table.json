@@ -1,0 +1,19 @@
+{
+   "AttributeDefinitions": [ 
+    { 
+        "AttributeName": "measured_at",
+        "AttributeType": "N"
+     }
+   ],
+   "KeySchema": [ 
+    { 
+         "AttributeName": "measured_at",
+         "KeyType": "hash"
+      }
+   ],
+   "ProvisionedThroughput": { 
+      "ReadCapacityUnits": 10,
+      "WriteCapacityUnits": 10
+   },
+   "TableName": "temperature_0b2bdd4b-75d2-4a62-8a1c-e786601fe099"
+}

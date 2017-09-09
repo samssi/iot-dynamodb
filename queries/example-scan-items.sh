@@ -1,0 +1,1 @@
+aws dynamodb scan --cli-input-json file://$DYNAMODB_EXAMPLES/queries/example-scan-items.json --endpoint-url http://localhost:8000
