@@ -8,7 +8,7 @@
    "KeySchema": [ 
     { 
          "AttributeName": "measured_at",
-         "KeyType": "hash"
+         "KeyType": "HASH"
       }
    ],
    "ProvisionedThroughput": { 
