@@ -22,6 +22,16 @@ Attributes use epoch time to represent time. Time unit is always the type Number
 docker run -d -p 8000:8000 dwmkerr/dynamodb
 ```
 
+### Executing examples
+
+Set up environment variable either with this script:
+
+```
+source set-examples-dir.sh <THIS_PROJECTS_CHECKOUT_DIRECTORY>
+```
+
+or add "DYNAMODB_EXAMPLES"-variable to your bash_profile.
+
 ### DynamoDB Client Query examples for local development
 
 ```
